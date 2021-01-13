@@ -5,25 +5,25 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-rtc-studio",
         "version": "1.0.0",
-        "displayName": "  ",
+        "displayName": "Getting Started with Real-Time Counter (RTC)",
         "projectName": "atmega4809-getting-started-with-rtc-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository contains examples of bare metal source code for the Real-Time Counter (RTC), as described in TB3213 - Getting Started with Real-Time Counter (RTC) document.",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "avr-gcc",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "^1.6.364"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,29 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATmega4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            [
+                "Peripherals",
+                "RTC"
+            ],
+            [
+                "Development Kit",
+                "ATmega4809 Xplained Pro"
+            ]
         ],
         "peripherals": [
+            "RTC"
         ],
         "keywords": [
+            "Bare Metal",
+            "Getting Started",
+            "Interrupts",
+            "Timer/Counter"
         ],
 		"additionalData": {
 			"longDescription": {
