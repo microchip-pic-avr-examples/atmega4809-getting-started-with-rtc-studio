@@ -1,4 +1,3 @@
-<!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
 # Getting Started with Real-Time Counter (RTC) Examples (Microchip Studio)
