@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-rtc-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with Real-Time Counter (RTC)",
         "projectName": "atmega4809-getting-started-with-rtc-studio",
         "shortDescription": "This repository contains examples of bare metal source code for the Real-Time Counter (RTC), as described in TB3213 - Getting Started with Real-Time Counter (RTC) document.",
